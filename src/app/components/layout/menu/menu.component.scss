@@ -1,0 +1,14 @@
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #ffffff; /* Cor do texto */
+    text-transform: capitalize; /* Deixa a primeira letra maiúscula */
+    letter-spacing: 1px; /* Espaçamento entre as letras */
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #4589b6; /* Cor ao passar o mouse */
+    transform: scale(1.1); /* Efeito de aumentar o nome ao passar o mouse */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra no texto */
+}

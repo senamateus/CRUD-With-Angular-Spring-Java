@@ -1,0 +1,16 @@
+.topo{
+    top: 30vh;
+    position: relative;
+}
+
+.btn-custom {
+    background-color: #FCBD65;
+    border-color: #FCBD65;
+    color: white; /* Se quiser o texto em branco */
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #F8A226; /* Uma cor um pouco mais escura para o efeito hover */
+    border-color: #F8A226;
+}

@@ -1,0 +1,21 @@
+.arredondar-borda {
+    display: inline-block; /* Para que o span possa ter altura e largura definidas */
+    padding: 3px 8px; /* Ajuste o padding para dar mais espaço ao redor do texto */
+    background-color: #cce5ff; /* Cor de fundo (azul claro, similar ao alert-primary) */
+    border-radius: 12px; /* Define o arredondamento das bordas */
+    color: #004085; /* Cor do texto (similar ao texto azul do alert-primary) */
+}
+
+h3 {
+    font-family: 'Arial', sans-serif; /* Fonte limpa e moderna */
+    font-size: 22px; /* Tamanho da fonte aumentado */
+    font-weight: bold; /* Deixa o texto mais destacado */
+    color: #2c3e50; /* Cor de texto agradável */
+    text-align: center; /* Alinha o título ao centro */
+    text-transform: capitalize; /* Primeira letra maiúscula de cada palavra */
+    margin: 10px 0; /* Espaçamento acima e abaixo */
+    padding: 10px 15px; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    background-color: #ecf0f1; /* Fundo suave */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
